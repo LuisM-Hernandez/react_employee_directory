@@ -7,6 +7,7 @@ const Wrapper = () => {
         <div className="wrapper">
             <Jumbotron />
             <SearchForm />
+            <InfoTable />
         </div>
     );
 }
