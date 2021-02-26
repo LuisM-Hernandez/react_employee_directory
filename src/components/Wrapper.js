@@ -1,13 +1,8 @@
-import InfoTable from "./InfoTable"
-import Jumbotron from "./Jumbotron"
-import SearchForm from "./SearchForm"
 
-const Wrapper = () => {
+const Wrapper = (props) => {
     return (
         <div className="wrapper">
-            <Jumbotron />
-            <SearchForm />
-            <InfoTable />
+          {props.children}
         </div>
     );
 }
