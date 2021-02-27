@@ -78,6 +78,7 @@ class App extends React.Component {
         this.setState({
           employees: res.data.results,
           employeeFilter: res.data.results
+          
         });
         // console.log(res)
       });
