@@ -77,7 +77,7 @@ class App extends React.Component {
       .then(res => {
         this.setState({
           employees: res.data.results,
-          employeeFilter: res.data.resutls
+          employeeFilter: res.data.results
         });
         // console.log(res)
       });
